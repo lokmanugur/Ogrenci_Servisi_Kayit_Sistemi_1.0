@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jCheckBox1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jCheckBox2"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="udspanel58" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="udspanel58" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="udspanel58">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Kullan&#x131;c&#x131; Yetkileri">
+              <Font PropertyName="font" name="Arial" size="12" style="1"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel264" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jComboBox1" min="-2" pref="127" max="-2" attributes="0"/>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+                  <Component id="jButton3" min="-2" pref="101" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel264" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="604" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel264">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Kullan&#x131;c&#x131; Ad&#x131;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G&#xfc;ncelle"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <Properties>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="iskontoyapabilsin" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="musterifirmakayitsil" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="musterifirmabilgileriduzen" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="firmatakvimlerineislem" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="musteritakvimlerineislem" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="satisfiyatdegistirme" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="hareketduzenleyebilsin" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="hareketiptaletme" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="barkodyaz" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="smsgonder" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="genelayar" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="satisfisiayar" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="irsaliyefaturaayar" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="irsaliyeayar" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="dovizkurlari" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="sifredegistir" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="faturaayar" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="yapilacakirsaliyefaturalist" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="irsaliyefaturayaz" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="personelodeme" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="personeltanimla" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="bankahesaphareket" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="bankahesaptanimla" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="bankahesaptanimla" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="bankahesaphareket" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="personeltanimla" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="personelodeme" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="irsaliyefaturayaz" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="yapilacakirsaliyefaturalist" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="dovizkurlari" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="sifredegistir" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="faturaayar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="irsaliyeayar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="irsaliyefaturaayar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="satisfisiayar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="genelayar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="smsgonder" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="barkodyaz" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="hareketiptaletme" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="hareketduzenleyebilsin" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="satisfiyatdegistirme" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="musteritakvimlerineislem" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="firmatakvimlerineislem" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="musterifirmabilgileriduzen" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="musterifirmakayitsil" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="iskontoyapabilsin" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="766" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="iskontoyapabilsin">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x130;skonto Yapabilsin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="musterifirmakayitsil">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri / Firma Kay&#x131;tlar&#x131;n&#x131; Silebilsin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="musterifirmabilgileriduzen">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri / Firma Bilgilerini D&#xfc;zenleyebilsin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="firmatakvimlerineislem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Firma Takvimlerine &#x130;&#x15f;lem Yapabilsin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="musteritakvimlerineislem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri Takvimlerine &#x130;&#x15f;lem Yapabilsin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="satisfiyatdegistirme">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sat&#x131;&#x15f; Fiyat&#x131; De&#x11f;i&#x15f;tire Bilsin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="hareketduzenleyebilsin">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Hareketleri D&#xfc;zenleyebilsin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="hareketiptaletme">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Hareketleri &#x130;ptal Edebilsin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="barkodyaz">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Barkod Yazd&#x131;r"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="smsgonder">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sms G&#xf6;nder"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="genelayar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Genel Ayarlar"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="satisfisiayar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sati&#x15f; Fi&#x15f;i Ayarlar&#x131;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="irsaliyefaturaayar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x130;rsaliye Fatura Ayarlar&#x131;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="irsaliyeayar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x130;rsaliye Ayarlar&#x131;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="dovizkurlari">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="D&#xf6;viz Kurlar&#x131;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="sifredegistir">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x15e;ifre De&#x11f;i&#x15f;tirme"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="faturaayar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fatura Ayarlar&#x131;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="yapilacakirsaliyefaturalist">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Yap&#x131;lacak &#x130;rsaliye/Fatura Listesi"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="irsaliyefaturayaz">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x130;rsaliye / Fatura Yazd&#x131;r"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="personelodeme">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Personel &#xd6;deme &#x130;&#x15f;lemleri"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="personeltanimla">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Personel Tan&#x131;mlama &#x130;&#x15f;lemleri"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="bankahesaphareket">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Banka Hesap Hareket &#x130;&#x15f;lemleri"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="bankahesaptanimla">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Banka Hesap Tan&#x131;mlama &#x130;&#x15f;lemleri"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

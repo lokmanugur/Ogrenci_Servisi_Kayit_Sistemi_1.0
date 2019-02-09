@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE server SYSTEM "roles.dtd">
+<server>
+    <serverAdress>192.168.1.36</serverAdress>
+    <port>3306</port>
+    <databaseName>student_service</databaseName>
+    <userName>root</userName>
+    <password>123</password>
+</server>

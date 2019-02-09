@@ -1,0 +1,16 @@
+1) Database de her araç için bir plaka olacak, birden fazla plaka olmayacak UNQUE plaka databasede yapıldı fakat kodlama daha yapılmadı
+http://stackoverflow.com/questions/5885602/return-duplicate-records bu kaynaktan yararlanılabilir.
+
+2) Personel kaydında boş text uyarılarına rağmen kayıt yapılıyor
+
+3) Personel güncelle hata veriyor.
+
+4) İptal olan Öğrenciler için taksit butonu iptal olacak.
+taksit oluşturma kulanıcı bazlı şifreleme yapıldığında muhtemelen iptal butonu misafir kulanıcılar
+ için pasif hale getirilse dahi iptal checkbooksa tıklanırsa tekrar aktif olacaktır bunu engellemek için final kulanılmalıdır
+
+5) Kendin oluştur kaydet butonu pasif durumda.
+
+6) otomatik oluştur 0 verildiğinde eksi olarak kaydediyor
+
+7) Bir kişinin Adına iki kez taksit düzenlenebiliyor engellenmeli
